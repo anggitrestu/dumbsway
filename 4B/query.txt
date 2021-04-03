@@ -1,0 +1,20 @@
+1. menampilkan semua buku
+SELECT * FROM book;
+
+2. tampilkan produk per kategori, field ditampilkan nama kategori, nama buku, stock
+SELECT books.name AS name, books.stok AS stock, categories.name AS nameCategory from books
+INNER JOIN categories ON books.category_id=categories.id WHERE categories.name=namecategory;
+
+3. tampilkan detail buku berdasarkan id
+SELECT * FROM books WHERE id=id;
+
+4. Tampilkan hasil query post tambah buku dan Kategori
+ #POST BUKU
+INSERT INTO books
+     VALUES
+('', name=name, stok=stok, image=image, deskripsi=deskripsi, category_id=category_id );
+
+#POST Categories
+INSERT INTO categories
+    VALUES
+('', name=name);

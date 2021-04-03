@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* akhir */
+.nav-cs {
+  padding: 30px 0 30px 0;
+  position: sticky;
+}
+.banner {
+  height: 336px;
+  margin: 0 auto;
+  border-radius: 4px;
+  background-color: #efefef;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.second-banner {
+  height: 162px;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.item-image {
+  width: 152px;
+  height: 221px;
+}
+
+.judul-h2 {
+  font-family: "Vesper Libre", serif;
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+  color: rgba(40, 30, 90, 0.86);
+}
+.judul-h2:hover {
+  text-decoration: underline;
+}
+.judul-h3:hover {
+  text-decoration: underline;
+}
+.judul-h3 {
+  font-family: "Vesper Libre", serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: rgba(40, 30, 90, 0.86);
+}
+
+.card-title:hover {
+  text-decoration: underline;
+}
+.card:hover {
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    -50px -50px 0px -30px rgba(0, 0, 0, 0);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    -50px -50px 0px -30px rgba(0, 0, 0, 0);
+}
+
+.komik-pilihan:hover {
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    -50px -50px 0px -30px rgba(0, 0, 0, 0);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    -50px -50px 0px -30px rgba(0, 0, 0, 0);
+}
+.banner:hover {
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    -50px -50px 0px -30px rgba(0, 0, 0, 0);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    -50px -50px 0px -30px rgba(0, 0, 0, 0);
+}
